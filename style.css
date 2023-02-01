@@ -43,7 +43,6 @@ section img {
 }
 
 .texto {
-    display: table-cell;
     float: left;
     width: 49%;
     margin-left: 10px;
@@ -52,15 +51,19 @@ section img {
 
 .lista-celulares {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .lista-celulares li {
-    max-width: 25%;
     list-style: none;
+    width: 25%;
 }
 
-section button  {
-    display: block;
+.lista-celulares li img {
+    align-items: center;
+}
+
+section button {
     width: 70%;
     padding: 8px 0;
     border: none;
@@ -72,3 +75,38 @@ section button  {
     cursor: pointer;
     border-radius: 6px;
 }
+
+section h2 {
+    padding-top: 30px;
+    border-bottom: 2px solid blueviolet;
+    font-style: italic;
+}
+
+.tipos {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.modelos {
+    display: flex;
+    justify-content: center;
+}
+
+.produtos {
+    text-align: center;
+}
+
+.modelos {
+    padding-bottom: 10px;
+ 
+}
+
+.comprar {
+    margin-bottom: 15px;
+}
+
+.lista-celulares li img {
+    justify-content: center;
+}
+
+
