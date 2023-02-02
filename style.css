@@ -15,12 +15,27 @@ header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 5px;
 }
 
 header {
     padding: 16px 0 0;
-    border-bottom: 1px solid rgb(48, 0, 80);
+    border-bottom: 1px  solid rgb(48, 0, 80);
     margin-bottom: 30px;
+}
+
+.pesquisar {
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(151, 151, 240);
+    color: #fff;
+    cursor: pointer;
+}
+
+input {
+    padding: 5px;
+    border-radius: 10px;
 }
 
 .title {
