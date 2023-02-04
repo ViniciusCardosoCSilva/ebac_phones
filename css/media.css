@@ -1,0 +1,99 @@
+@media screen and (max-width: 667px) {
+    .container {
+        width: 95%;
+    }
+
+    .cabecalho {
+        width: 100%;
+    }
+
+    .cabecalho h1 {
+        font-size: 28px;
+    }
+
+    .pesquisar {
+        margin-top: 5px;
+        margin-left: 42px;
+    }
+
+    .banner {
+        width: 100%;
+        float: none;
+    }
+
+    .texto {
+        width: 100%;
+        font-size: 16px;
+        text-align: justify;
+        margin: 0;
+    }
+
+    .lista-celulares {
+        width: 100%;
+    }
+
+    .tipos {
+        width: 100%;
+    }
+
+    .lista-celulares li {
+        width: 100%;
+        border-bottom: 1px solid rgba(60, 0, 72, 0.242);
+    }
+}
+
+@media screen and (max-width: 1179px) {
+    .container {
+        width: 95%;
+    }
+
+    .cabecalho {
+        width: 100%;
+        font-size: 24px;
+    }
+
+    input::-webkit-input-placeholder {
+        font-size: 20px;
+    }
+
+    .pesquisar {
+        height: 50px;
+        font-size: 20px;
+    }
+
+    .busque {
+        height: 50px;
+    }
+
+    .banner {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .conteudo .title{
+        font-size: 2em;
+    }
+
+    .texto {
+        width: 100%;
+        margin: 0;
+        font-size: 1.5em;
+    }
+
+    .lista-celulares {
+        width: 100%;
+    }
+
+    .tipos {
+        width: 100%;
+    }
+
+    .lista-celulares li {
+        width: 50%;
+    }
+
+    .mais-vendidos {
+        font-size: 2em;
+        padding-bottom: 10px;
+    }
+}   

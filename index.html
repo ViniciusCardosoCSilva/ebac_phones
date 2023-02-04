@@ -9,15 +9,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
 </head>
 <body>
     
-    <header>
+    <header class="cabecalho">
         <div class="container">
             <h1>EBAC Phones</h1>
-            <form>
-                <input type="search" placeholder="Busque no site">
+            <form class="busca">
+                <input class="busque" type="search" placeholder="Busque no site">
                 <button class="pesquisar" type="submit">Pesquisar</button>
             </form>
         </div>
@@ -27,7 +28,7 @@
         <section>
             <h2 class="title">Novidades</h2>
             <div class="imagem">
-                <img src="./images/celulares.jpg" alt="Imagem de celulares da Samsung e iPhone">
+                <img class="banner" src="./images/celulares.jpg" alt="Imagem de celulares da Samsung e iPhone">
             </div>
             <div class="texto">
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, tempore. Commodi illum quo officia? Amet blanditiis eum quia accusantium nemo. Possimus, libero aliquam quaerat et illo ad repudiandae eum harum in quidem, exercitationem alias mollitia autem, sapiente nesciunt a nemo ut voluptatum consequuntur? Ratione ut fuga repellendus dolor possimus cum!</p> <br>
@@ -39,12 +40,13 @@
 
     <div class="container">
         <section>
-            <h2>Mais vendidos</h2>
+            <h2 class="mais-vendidos">Mais vendidos</h2>
             <ul class="lista-celulares">
                 <li>
                     <div class="produtos">
                         <h3 class="tipos">iPhone 14 Pro Max</h3>
                         <p class="modelos"><img class="images" src="./images/iphone14.webp" alt="Imagem do iPhone 14 Pro Max"></p>
+                        <p>256gb, cinza, 3 câmeras</p>
                         <p><strong>R$ 8.999,99</strong></p>
                         <button class="comprar" type="button">Adicionar ao carrinho</button>
                     </div>
@@ -53,6 +55,7 @@
                     <div class="produtos">
                         <h3 class="tipos">iPhone 14</h3>
                         <p class="modelos"><img class="images" src="./images/iphone14-2.webp" alt="Imagem do iPhone 14"></p>
+                        <p>128gb, azul, 2 câmeras</p>
                         <p><strong>R$ 6.999,99</strong></p>
                         <button class="comprar" type="button">Adicionar ao carrinho</button>
                     </div>
@@ -61,6 +64,7 @@
                    <div class="produtos">
                         <h3 class="tipos">Samsung S22 Ultra 5G</h3>
                         <p class="modelos"><img class="images" src="./images/s22 ultra.webp" alt="Imagem do Samsung S22 Ultra"></p>
+                        <p>256gb, branco, 4 câmeras</p>
                         <p><strong>R$ 7.999,99</strong></p>
                         <button class="comprar" type="button">Adicionar ao carrinho</button>
                    </div>
@@ -69,6 +73,7 @@
                     <div class="produtos">
                         <h3 class="tipos">Samsung S22 Ultra 5G</h3>
                         <p class="modelos"><img class="images" src="./images/s22 ultra-2.webp" alt="Imagem Samsung S22 Ultra"></p>
+                        <p>128gb, bronze, 4 câmeras</p>
                         <p><strong>R$ 7.499,99</strong></p>
                         <button class="comprar" type="button">Adicionar ao carrinho</button>
                     </div>
